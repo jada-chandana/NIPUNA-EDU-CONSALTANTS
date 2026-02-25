@@ -1,0 +1,76 @@
+.destinations {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #f8fbff, #eef5ff);
+  text-align: center;
+}
+
+.destinations h2 {
+  font-size: 32px;
+  color: #002b5b;
+  margin-bottom: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.destinations h2::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+ 
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.destinations ul {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.destinations li {
+  background: #ffffff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #003366;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.destinations li:hover {
+  transform: translateY(-5px);
+  background: #0077cc;
+  color: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 119, 204, 0.3);
+}
+
+.destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.destination-card {
+  background: linear-gradient(135deg, #ffffff, #f1f5f9);
+  padding: 20px;
+  border-radius: 14px;
+  text-align: center;
+  font-weight: 600;
+  color: #1e3a8a;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.destination-card:hover {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  transform: translateY(-6px);
+}

@@ -1,0 +1,22 @@
+.contact {
+  padding: 40px 20px;
+  background-color: #eaf2ff;
+}
+
+.contact h2 {
+  color: #003366;
+}
+.contact {
+  background: linear-gradient(135deg, #1e3a8a, #0f172a);
+  color: white;
+  border-radius: 15px;
+  padding: 60px;
+}
+
+.contact h2 {
+  color: white;
+}
+
+.contact p {
+  margin-bottom: 10px;
+}
