@@ -6,7 +6,7 @@ const Contact = () => {
     <section className="contact" id = "contact">
       <h2>Contact Us</h2>
       <p>Phone: +91-98855 99433</p>
-      <p>Email: info@nipunaeduConsultant.com</p>
+      <p>Email: info@nipunaeduconsultants.com</p>
       <p>Address: Sainikpuri, Secunderabad</p>
     </section>
   );
