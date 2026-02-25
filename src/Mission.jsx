@@ -7,7 +7,7 @@ const MissionVision = () => {
       <h2>Our Mission</h2>
       <p>
         To empower students with the right knowledge and guidance
-        to achieve their academic and professional goals globally.
+        to achieve their academic and professional goals.
       </p>
 
       <h2>Our Vision</h2>

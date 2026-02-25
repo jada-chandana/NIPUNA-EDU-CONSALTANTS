@@ -16,7 +16,7 @@ const About = () => {
           students toward the right academic and career opportunities.
           They provide expert support in admissions, career counselling,
           university selection, and end-to-end assistance for studying
-          in India and abroad.
+          in India.
         </p>
         <button >Get Free Consultation</button>
       </div>

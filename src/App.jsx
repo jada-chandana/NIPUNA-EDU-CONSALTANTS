@@ -6,7 +6,7 @@ import './App.css'
 import Navbar from "./Navbar";
 import About from "./About";
 import Services from "./Services";
-import Destination from "./Destination";
+
 import Choose from "./Choose";
 import Mission from "./Mission";
 import Contact from "./Contact";
@@ -18,7 +18,7 @@ function App() {
    <Navbar />
    <About />
     <Services />
-    <Destination />
+    
     <Choose />
     <Mission />
     <Contact />
